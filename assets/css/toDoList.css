@@ -1,3 +1,11 @@
+
+body {
+  font-family: roboto;
+  background: #ef32d9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 h1{
   background: #2980b9;
   color: white;
@@ -14,28 +22,15 @@ ul{
   padding: 0;
 }
 
-.fa-plus {
-  color: white;
-  float: right;
-}
-
-body {
-  font-family: roboto;
-  background: #ef32d9;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
-
 li {
   background: white;
   height: 40px;
   line-height: 40px;
   color: #666;
 }
-
-li:nth-child(2n) {
-  background: #F7F7F7;
+.fa-plus {
+  color: white;
+  float: right;
 }
 
 span {
@@ -47,6 +42,10 @@ span {
   width: 0px;
   display: inline-block;
   opacity: 0;
+}
+
+li:nth-child(2n) {
+  background: #F7F7F7;
 }
 
 li:hover span {
